@@ -17,7 +17,7 @@ const scrapeStops = (radius) => {
 }
 
 for (radius of radii) {
-    scrapeStops(radii[0])
+    scrapeStops(radius)
         .then(({data}) => data.map(s => saveStop(s)))
         .catch(e => console.log(e))
 }
