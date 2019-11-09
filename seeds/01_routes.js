@@ -1,13 +1,26 @@
+// const fs = require('fs')
+const routes = require('../util/bus_route_ids')
+require('array-flat-polyfill')
+const getSeeds = () => {
+  return routes.map((route, i) => {
+
+    const routeName = route.toString().padStart(3, '0')
+    const data = require(`../data/${routeName}.json`)
+
+    const { RouteNo, Name, Patterns } = data
+
+    return Patterns.map((p, i2) => {
+      return {id: Number(`${i}000${i2}`), route_no: RouteNo, name: Name, direction: p.Direction, destination: p.Destination}
+    })
+  }).flat()
+}
 
 exports.seed = function(knex) {
   // Deletes ALL existing entries
-  return knex('table_name').del()
+  return knex('routes').del()
     .then(function () {
-      // Inserts seed entries
-      return knex('table_name').insert([
-        {id: 1, colName: 'rowValue1'},
-        {id: 2, colName: 'rowValue2'},
-        {id: 3, colName: 'rowValue3'}
-      ]);
-    });
+      const seeds = getSeeds()
+      console.log(seeds)
+      return knex('routes').insert(seeds)
+  });
 };
