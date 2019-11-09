@@ -20,7 +20,6 @@ exports.seed = function(knex) {
   return knex('routes').del()
     .then(function () {
       const seeds = getSeeds()
-      console.log(seeds)
       return knex('routes').insert(seeds)
   });
 };
