@@ -1,8 +1,8 @@
 require('dotenv').config()
 const axios = require('axios')
 const routes = require('./bus_route_ids')
-const TRANSLINK_API = process.env.TRANSLINK_API
-const TRANSLINK = id => `https://api.translink.ca/rttiapi/v1/routes/${id}?apikey=${TRANSLINK_API}`
+const TRANSLINK_KEY = process.env.TRANSLINK_KEY
+const TRANSLINK = id => `https://api.translink.ca/rttiapi/v1/routes/${id}?apikey=${TRANSLINK_KEY}`
 const fs = require('fs')
 
 const saveRoute = (routeData) => {
