@@ -1,0 +1,1 @@
+{"RouteNo":"026","Name":"JOYCE STN/29TH AVENUE STN","OperatingCompany":"CMBC","Patterns":[{"PatternNo":"E1","Destination":"JOYCE STN","RouteMap":{"Href":"https://nb.translink.ca/geodata/trip/026-E1.kmz"},"Direction":"EAST"},{"PatternNo":"W1","Destination":"29TH AVE STN","RouteMap":{"Href":"https://nb.translink.ca/geodata/trip/026-W1.kmz"},"Direction":"WEST"}]}

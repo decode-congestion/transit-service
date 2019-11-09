@@ -1,0 +1,1 @@
+{"RouteNo":"068","Name":"UBC EXCHANGE/LOWER MALL","OperatingCompany":"CMBC","Patterns":[{"PatternNo":"NB1","Destination":"UBC EXCH","RouteMap":{"Href":"https://nb.translink.ca/geodata/trip/068-NB1.kmz"},"Direction":"NORTH"},{"PatternNo":"SB1","Destination":"LOWER MALL","RouteMap":{"Href":"https://nb.translink.ca/geodata/trip/068-SB1.kmz"},"Direction":"SOUTH"}]}

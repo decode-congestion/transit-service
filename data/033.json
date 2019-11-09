@@ -1,0 +1,1 @@
+{"RouteNo":"033","Name":"29 AVE STN/ UBC","OperatingCompany":"CMBC","Patterns":[{"PatternNo":"EB1","Destination":"29TH AVE STN","RouteMap":{"Href":"https://nb.translink.ca/geodata/trip/033-EB1.kmz"},"Direction":"EAST"},{"PatternNo":"WB1","Destination":"U B C","RouteMap":{"Href":"https://nb.translink.ca/geodata/trip/033-WB1.kmz"},"Direction":"WEST"}]}

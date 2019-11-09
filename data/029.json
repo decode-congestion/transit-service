@@ -1,0 +1,1 @@
+{"RouteNo":"029","Name":"ELLIOTT/29TH AVENUE STN","OperatingCompany":"CMBC","Patterns":[{"PatternNo":"N1","Destination":"29TH AVE STN","RouteMap":{"Href":"https://nb.translink.ca/geodata/trip/029-N1.kmz"},"Direction":"NORTH"},{"PatternNo":"S1","Destination":"ELLIOTT","RouteMap":{"Href":"https://nb.translink.ca/geodata/trip/029-S1.kmz"},"Direction":"SOUTH"}]}

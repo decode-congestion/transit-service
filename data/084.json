@@ -1,0 +1,1 @@
+{"RouteNo":"084","Name":"UBC/VCC-CLARK STATION","OperatingCompany":"CMBC","Patterns":[{"PatternNo":"EB1","Destination":"VCC-CLARK STN","RouteMap":{"Href":"https://nb.translink.ca/geodata/trip/084-EB1.kmz"},"Direction":"EAST"},{"PatternNo":"WB1","Destination":"UBC","RouteMap":{"Href":"https://nb.translink.ca/geodata/trip/084-WB1.kmz"},"Direction":"WEST"}]}

@@ -1,0 +1,1 @@
+{"RouteNo":"023","Name":"MAIN ST STN/BEACH","OperatingCompany":"CMBC","Patterns":[{"PatternNo":"EB1","Destination":"MAIN ST STN","RouteMap":{"Href":"https://nb.translink.ca/geodata/trip/023-EB1.kmz"},"Direction":"EAST"},{"PatternNo":"WB1","Destination":"BEACH","RouteMap":{"Href":"https://nb.translink.ca/geodata/trip/023-WB1.kmz"},"Direction":"WEST"}]}

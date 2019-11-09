@@ -1,0 +1,1 @@
+{"RouteNo":"070","Name":"UBC EXCHANGE/WESBROOK MALL","OperatingCompany":"CMBC","Patterns":[{"PatternNo":"NB1","Destination":"UBC EXCH","RouteMap":{"Href":"https://nb.translink.ca/geodata/trip/070-NB1.kmz"},"Direction":"NORTH"},{"PatternNo":"SB1","Destination":"WESBROOK MALL","RouteMap":{"Href":"https://nb.translink.ca/geodata/trip/070-SB1.kmz"},"Direction":"SOUTH"}]}

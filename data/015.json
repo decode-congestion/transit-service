@@ -1,0 +1,1 @@
+{"RouteNo":"015","Name":"CAMBIE/OLYMPIC VILLAGE STN","OperatingCompany":"CMBC","Patterns":[{"PatternNo":"NB1","Destination":"OLYMPIC VILLAGE STN","RouteMap":{"Href":"https://nb.translink.ca/geodata/trip/015-NB1.kmz"},"Direction":"NORTH"},{"PatternNo":"SB1","Destination":"CAMBIE","RouteMap":{"Href":"https://nb.translink.ca/geodata/trip/015-SB1.kmz"},"Direction":"SOUTH"}]}
