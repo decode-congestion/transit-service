@@ -4,7 +4,7 @@ require('array-flat-polyfill')
 const getSeeds = () => {
   return routes.map((route, i) => {
 
-    const routeName = route.toString().padStart(3, '0')
+    const routeName = (route[0] === 'N') ? route : route.toString().padStart(3, '0')
     const data = require(`../data/routes/${routeName}.json`)
 
     const { RouteNo, Name, Patterns } = data

@@ -1,7 +1,7 @@
 require('dotenv').config()
 const TRANSLINK_KEY = process.env.TRANSLINK_KEY
 const axios = require('axios')
-const TRANSLINK = `https://api.translink.ca/rttiapi/v1/buses?apikey=${TRANSLINK_KEY}&routeNo=099`
+const TRANSLINK = `https://api.translink.ca/rttiapi/v1/buses?apikey=${TRANSLINK_KEY}&routeNo=N17`
 const environment = process.env.NODE_ENV || 'development';    // if something else isn't setting ENV, use development
 const configuration = require('../knexfile')[environment];    // require environment's settings from knexfile
 const knex = require('knex')(configuration);              // connect to DB via knex using env's settings

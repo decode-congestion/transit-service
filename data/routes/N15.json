@@ -1,0 +1,1 @@
+{"RouteNo":"N15","Name":"DOWNTOWN/CAMBIE NIGHTBUS","OperatingCompany":"CMBC","Patterns":[{"PatternNo":"NB1","Destination":"DOWNTOWN NIGHTBUS","RouteMap":{"Href":"https://nb.translink.ca/geodata/trip/N15-NB1.kmz"},"Direction":"NORTH"},{"PatternNo":"SB1","Destination":"CAMBIE NIGHTBUS","RouteMap":{"Href":"https://nb.translink.ca/geodata/trip/N15-SB1.kmz"},"Direction":"SOUTH"}]}

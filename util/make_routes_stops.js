@@ -9,14 +9,38 @@ const createRoutesStopsSet = () => {
     const routes_stops = new Set()
     
     stops.forEach(s => {
-        const stop = require(`../data/stops/${s}`)
-        const routes = stop.Routes ? stop.Routes.split(", ") : []
-        routes.forEach(route => {
-            routes_stops.add({
-                stop: stop.StopNo,
-                route: route
+        try {
+            
+            const stop = require(`../data/stops/${s}`)
+            const routes = stop.Routes ? stop.Routes.split(", ") : []
+            routes.forEach(route => {
+                routes_stops.add({
+                    stop: stop.StopNo,
+                    route: route
+                })
+
+                // routes_stops.add({
+                //     stop: stop.StopNo,
+                //     route: route,
+                //     direction: 'SOUTH'
+                // })
+
+
+                // routes_stops.add({
+                //     stop: stop.StopNo,
+                //     route: route,
+                //     direction: 'EAST'
+                // })
+
+                // routes_stops.add({
+                //     stop: stop.StopNo,
+                //     route: route,
+                //     direction: 'WEST'
+                // })
             })
-        })
+        } catch (e) {
+            
+        }
     })
     
     // console.log(stops.length)

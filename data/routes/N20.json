@@ -1,0 +1,1 @@
+{"RouteNo":"N20","Name":"DOWNTOWN/VICTORIA NIGHTBUS","OperatingCompany":"CMBC","Patterns":[{"PatternNo":"NB2","Destination":"DOWNTOWN NIGHTBUS","RouteMap":{"Href":"https://nb.translink.ca/geodata/trip/N20-NB2.kmz"},"Direction":"NORTH"},{"PatternNo":"SB2","Destination":"VICTORIA NIGHTBUS","RouteMap":{"Href":"https://nb.translink.ca/geodata/trip/N20-SB2.kmz"},"Direction":"SOUTH"}]}

@@ -6,15 +6,12 @@ const fs = require('fs')
 
 const getSeeds = (routesStopsSet, knex) => {
     const routesStops = Array.from(routesStopsSet)
-  
     return routesStops.map((route_stop, i) => {
       const { stop, route } = route_stop
-  
       return Promise.all([
         knex('routes').where({ route_no: route }),
         knex('stops').where({ stop_no: stop })
       ]).then(([routes_rows, stops_rows]) => {
-  
         if (routes_rows[0] && stops_rows[0]) {
           const route_id = routes_rows[0].id
           const stop_id = stops_rows[0].id

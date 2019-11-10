@@ -1,0 +1,1 @@
+{"RouteNo":"N8","Name":"DOWNTOWN/FRASER NIGHTBUS","OperatingCompany":"CMBC","Patterns":[{"PatternNo":"EB2","Destination":"FRASER NIGHTBUS","RouteMap":{"Href":"https://nb.translink.ca/geodata/trip/N8-EB2.kmz"},"Direction":"EAST"},{"PatternNo":"WB2","Destination":"DOWNTOWN NIGHTBUS","RouteMap":{"Href":"https://nb.translink.ca/geodata/trip/N8-WB2.kmz"},"Direction":"WEST"}]}
