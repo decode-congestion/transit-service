@@ -18,28 +18,9 @@ const createRoutesStopsSet = () => {
                     stop: stop.StopNo,
                     route: route
                 })
-
-                // routes_stops.add({
-                //     stop: stop.StopNo,
-                //     route: route,
-                //     direction: 'SOUTH'
-                // })
-
-
-                // routes_stops.add({
-                //     stop: stop.StopNo,
-                //     route: route,
-                //     direction: 'EAST'
-                // })
-
-                // routes_stops.add({
-                //     stop: stop.StopNo,
-                //     route: route,
-                //     direction: 'WEST'
-                // })
             })
         } catch (e) {
-            
+
         }
     })
     

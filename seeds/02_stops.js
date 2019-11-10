@@ -8,11 +8,18 @@ const getStops = () => {
 
 const getSeeds = (stopNames, st) => {
   return stopNames.map((stop, i) => {
+    try {
+      
     const data = require(`../data/stops/${stop}`)
 
     const { StopNo, Latitude, Longitude } = data
 
       return {id: i, stop_no: StopNo, point: st.setSRID(st.geomFromGeoJSON(`{"type": "Point", "coordinates": [${Longitude},${Latitude}]}`), 4326)
+    }
+
+
+    } catch (e) {
+      
     }
   })
 }
