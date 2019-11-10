@@ -1,5 +1,5 @@
 exports.up = function(knex) {
-    return knex.schema.createTable('loot', (table) => {
+    return knex.schema.createTable('loots', (table) => {
         table.increments('id')
         table.integer('type')
         table.integer('sprite')
@@ -19,5 +19,5 @@ exports.up = function(knex) {
 };
 
 exports.down = function(knex) {
-    return knex.schema.dropTable('roster_vehicles')
+    return knex.schema.dropTable('loots')
 };
