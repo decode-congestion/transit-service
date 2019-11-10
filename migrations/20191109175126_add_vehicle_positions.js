@@ -7,7 +7,7 @@ exports.up = function(knex) {
 
         table.foreign('vehicle_id')
             .references('vehicles.id')
-
+            .onDelete('CASCADE')
     })
 };
 

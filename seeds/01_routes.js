@@ -5,7 +5,7 @@ const getSeeds = () => {
   return routes.map((route, i) => {
 
     const routeName = route.toString().padStart(3, '0')
-    const data = require(`../data/${routeName}.json`)
+    const data = require(`../data/routes/${routeName}.json`)
 
     const { RouteNo, Name, Patterns } = data
 
